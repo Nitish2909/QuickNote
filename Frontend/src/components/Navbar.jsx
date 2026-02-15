@@ -1,4 +1,4 @@
-import { PlusIcon } from "lucide-react";
+
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-md">
       {/* Left Side - Title */}
       <h1 className="text-4xl font-bold text-gray-800 ">
-        ThinkBoard
+        QuickNote
       </h1>
 
       {/* Right Side - Button */}
