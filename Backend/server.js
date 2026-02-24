@@ -12,7 +12,7 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://quicknote-frontend-pdxk.onrender.com",
+    origin: "https://quicknote-frontend-686w.onrender.com",
     // origin: "http://localhost:5173",
   }),
 );
