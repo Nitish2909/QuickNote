@@ -6,6 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
    server:{
-    allowedHosts:['https://quicknote-frontend-pdxk.onrender.com']
+    allowedHosts:['quicknote-frontend-pdxk.onrender.com']
   }
 })
